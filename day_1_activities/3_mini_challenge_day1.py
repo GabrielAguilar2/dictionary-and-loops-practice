@@ -57,4 +57,21 @@
         #    - Display an error message saying the CPS ID is already taken
 
 
+print("Hello! Welcome to the Student Lookup Tool for John Hancock Highschool.") 
+user_choice = input("Please press 1 to find an existing student, press 2 to eneter a new student, or any key to restart: ")
+
+
+
+
+#code for when user presses 2 to eneter a new student
+# first_name = input("Please enter the new student's FIRST name: ")
+# last_name = input("Please enter the new student's LAST name: ")
+# middle_name = input("Please enter your MIDDLE name: ")
+# combo_name = input("Please enter your full name: ")
+# homeroom = input("Please enter your homeroom: ")
+# grade_level = input("Please enter your grade level: ")
+# primary_email = input("Please enter your primary email address: ")
+# secondary_email = input("Please enter your secondary email address: ")
+
+
 

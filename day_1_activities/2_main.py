@@ -48,6 +48,12 @@ print(students[0]['Combo,Name'])
 print(students[0]['Email'][0])
 print(students[0]['Email'][1])
 
+print(students[1]['FName'])
+print(students[1]['LName'])
+
+print(students[-1]['FName'])
+
+
 # What is being counted?
 
 # If the output is 36, what does that tell you?
@@ -69,10 +75,24 @@ print(students[0]['Email'][1])
 #we are also printing a line of underscores to separate the students
 #we are also printing a line of underscores to separate the students
 for student in students:
-    print(student['Combo,Name'])
-    print(student['Email'][0])
-    print(student['Email'][1])
-    print("_"*25)
+   print(student['Combo,Name'])
+   print(student['Email'][0])
+   print(student['Email'][1])
+   print(student['HR'])
+   print(student['GL'])
+   print(student['CPSID'])
+
+   if student ['GL'] >=10:
+      print("You can go off campus")
+   print("_"*25)
+
+   if student ['LName'][0] == "R":
+      print(student['Combo, Name'])
+      print(student['HR'])
+
+   #if student['LName'][0] == "L":
+     #break
+
 
 # What does the loop variable student represent on each pass?
 
@@ -88,11 +108,11 @@ for student in students:
 # we are asking the user to input their name
 # then we are checking if the name is in the data
 # if the name is in the data we are printing the name and "this works"
-name = input("what is you name?") 
-for student in students:
-    if name == student['Combo,Name']:
-        print(student['Combo,Name'])
-        print("this works")
+#name = input("what is you name?") 
+#for student in students:
+ #   if name == student['Combo,Name']:
+ #       print(student['Combo,Name'])
+  #      print("this works")
 
 # What is the goal of this search?
 
